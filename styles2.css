@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Sekuya');
+@import url('https://fonts.googleapis.com/css?family=libertinus-serif');
+@import url('https://fonts.googleapis.com/css?family=alegreya-sc');
+
+*{box-sizing: border-box;}/*the * selector selecs everything*/
+
+html{
+	font-size: 20px; 
+	font-family: Libertinus Serif;
+	
+}
+
+body{
+	background-color: rgb(170, 147, 42);
+	padding:0;
+	margin:0;
+}
+header{
+	text-align: center;
+	font-weight:bold;
+	background-color:  rgb(30, 0, 54);
+	border: 15px solid  rgb(92, 46, 94);
+	color:  rgb(238, 218, 129);
+	font-family:Sekuya;
+	font-size: 80px
+}
+nav{
+	background-color: rgb(30, 0, 54);
+	margin: 0;
+	padding: 0.5rem;
+	color:rgb(238, 218, 129);
+}
+main{
+	/* The following code would set the flex-grow property to 1, flex-shrink to 1 and flex-basis to 90%.*/
+	background-color: rgb(238, 218, 129);
+	color:  rgb(30, 0, 54);
+}
+footer{
+	/* The following code would set the flex-grow property to 1, flex-shrink to 1 and flex-basis to 100%.*/
+	background-color: rgb(30, 0, 54);
+	margin: 0;
+	padding: 0.5rem;
+}
+img{
+width: 100%;
+padding-top: 20px;
+}
+a{
+	color:rgb(238, 218, 129);
+	display: inline-block;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-top: 5px;
+	background-color: rgb(92, 46, 94);
+	text-decoration: none;
+	font-size:28px;
+	font-weight: bold;
+	font-family: Alegreya SC;
+}
+
+div{
+	display:inline-block;
+	width:45%;
+	padding: 0;
+}
