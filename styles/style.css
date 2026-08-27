@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=alegreya-sc');
 @import url('https://fonts.googleapis.com/css?family=Sekuya');
 
-*{box-sizing: border-box;}/*the * selector selecs everything*/
+*{box-sizing: border-box;}
 
 html{
 	font-size: 20px; 
@@ -33,7 +33,6 @@ nav{
 	color:rgb(238, 218, 129);
 }
 main{
-	/* The following code would set the flex-grow property to 1, flex-shrink to 1 and flex-basis to 90%.*/
 	background-color: rgb(238, 218, 129);
 	color:  rgb(30, 0, 54);
 }
@@ -54,7 +53,6 @@ a{
 
 }
 footer{
-	/* The following code would set the flex-grow property to 1, flex-shrink to 1 and flex-basis to 100%.*/
 	background-color: rgb(30, 0, 54);
 	margin: 0;
 	padding: 0.5rem;
